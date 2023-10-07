@@ -18,7 +18,9 @@ const reducer = (state = initialState, action) => {
             return [
                 ...state,
                 {
-                    id: nexToDoId(state)
+                    id: nexToDoId(state),
+                    text: action.payload,
+                    completed: false,
                 }
             ];
 
