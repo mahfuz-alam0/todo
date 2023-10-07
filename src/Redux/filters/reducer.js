@@ -5,9 +5,10 @@ import { initialState } from "./initialState";
 const reducer = (state = initialState, action) => {
     switch (action.type) {
         case STATUSCHANGED:
+            console.log(action.payload.status)
             return {
                 ...state,
-                status: action.payload
+                status: action.payload.status
             }
 
         case COLORCHANGED:
