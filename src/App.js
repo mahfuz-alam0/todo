@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import TodoList from "./components/TodoList";
-import store from "./Redux/store";
+import store from "./redux/store";
 
 function App() {
     return (
