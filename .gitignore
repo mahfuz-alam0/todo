@@ -2,9 +2,10 @@
 
 # dependencies
 /node_modules
-/lws-json-server-todos/node_modules
 /.pnp
 .pnp.js
+
+lws-json-server-todos/node_modules
 
 # testing
 /coverage
